@@ -14,6 +14,6 @@ extends:
   template: build.yaml@templates
   parameters:
     name: kubernetes-test-app
-    deploy: true
+    deploy: false
     namespace: kubernetes-test-app
     

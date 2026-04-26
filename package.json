@@ -1,6 +1,6 @@
 {
   "name": "kubernetes-test-app",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,13 +14,13 @@
     "@hapi/good": "9.0.1",
     "@hapi/good-console": "9.0.1",
     "@hapi/good-squeeze": "6.0.0",
-    "@hapi/hapi": "20.1.5",
+    "@hapi/hapi": "21.4.8",
     "@hapi/inert": "6.0.3",
     "@hapi/joi": "17.0.2",
     "@hapi/vision": "6.1.0",
     "blipp": "4.0.2",
-    "nodemon": "^2.0.20",
-    "nunjucks": "3.2.3",
-    "standard": "16.0.3"
+    "nodemon": "3.1.14",
+    "nunjucks": "3.2.4",
+    "standard": "16.0.4"
   }
 }
