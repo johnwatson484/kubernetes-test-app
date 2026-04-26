@@ -1,5 +1,5 @@
 # Development
-FROM node:18-alpine AS development
+FROM node:24-alpine AS development
 ENV NODE_ENV development
 ARG PORT=3000
 ENV PORT ${PORT}
@@ -18,5 +18,7 @@ CMD [ "npm", "run", "start:watch" ]
 # Production
 FROM development AS production
 ENV NODE_ENV production
+USER root
 RUN npm ci
+USER node
 CMD [ "node", "app" ]
